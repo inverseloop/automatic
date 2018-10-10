@@ -1,0 +1,31 @@
+{
+  "name": "automatic-be",
+  "version": "1.0.0",
+  "description": "Back end serving REST apis for the automatic workflow engine.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/whipjack/automatic.git"
+  },
+  "keywords": [
+    "MERN",
+    "REST",
+    "workflow",
+    "kickstart"
+  ],
+  "author": "whipjack <robderr@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/whipjack/automatic/issues"
+  },
+  "homepage": "https://github.com/whipjack/automatic#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.3.2",
+    "morgan": "^1.9.1"
+  }
+}
